@@ -10,5 +10,13 @@ int main(){
         printf("El último elemento de pi es: %d \n \n", pi[n-1]);
         free(pi);
     }
+    for(int i=0; i<10; i++) {
+        int *pi = createNIntegers(i);
+
+        printf("Caso i = %d : \n", i);
+        printf("El primer elemento de pi es: %d \n", pi[0]);
+        printf("El último elemento de pi es: %d \n \n", pi[i-1]);
+        free(pi);
+    }
     return 0;
 }
