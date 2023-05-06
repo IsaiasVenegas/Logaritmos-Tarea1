@@ -1,7 +1,7 @@
 #include "createPi.c"
 
 int main(){
-    for(int i=0; i<10; i++) {
+    for(int i=0; i<=10; i++) {
         int n = pow(2, 20+i);
         int *pi = createNIntegers(n);
 
