@@ -98,7 +98,7 @@ int main()
         int *pi_permutation;
         pi_permutation = permutation(pi, i);
         int *pi_merge_sort;
-        pi_merge_sort = inversa(pi, i, 4);
+        pi_merge_sort = inversa(pi, i, 8);
         if (!checkPi(pi_merge_sort, pi_permutation, i))
         {
             printf("pi   -> ");
@@ -134,7 +134,7 @@ int main()
         int *pi_permutation;
         pi_permutation = permutation(pi, n);
         int *pi_merge_sort;
-        pi_merge_sort = inversa(pi, n, 4);
+        pi_merge_sort = inversa(pi, n, 8);
         if (!checkPi(pi_merge_sort, pi_permutation, n))
         {
             printf("Error, pi_merge_sort es distinto a pi_permutation para el caso n = 2^%d \n", 20+i);
