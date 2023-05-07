@@ -1,0 +1,23 @@
+The avg for 2^24 permutations - merge sort Arity is 2 is 3806 milliseconds
+The sd for 2^24 permutations - merge sort Arity is 2 is 53 milliseconds
+
+The avg for 2^24 permutations - merge sort Arity is 4 is 2441 milliseconds
+The sd for 2^24 permutations - merge sort Arity is 4 is 9 milliseconds
+
+The avg for 2^24 permutations - merge sort Arity is 8 is 2110 milliseconds
+The sd for 2^24 permutations - merge sort Arity is 8 is 4 milliseconds
+
+The avg for 2^24 permutations - merge sort Arity is 16 is 2855 milliseconds
+The sd for 2^24 permutations - merge sort Arity is 16 is 14 milliseconds
+
+The avg for 2^24 permutations - merge sort Arity is 32 is 5295 milliseconds
+The sd for 2^24 permutations - merge sort Arity is 32 is 118 milliseconds
+
+The avg for 2^24 permutations - merge sort Arity is 64 is 14103 milliseconds
+The sd for 2^24 permutations - merge sort Arity is 64 is 192 milliseconds
+
+The avg for 2^24 permutations - merge sort Arity is 128 is 27940 milliseconds
+The sd for 2^24 permutations - merge sort Arity is 128 is 282 milliseconds
+
+The avg for 2^24 permutations - merge sort Arity is 256 is 40678 milliseconds
+The sd for 2^24 permutations - merge sort Arity is 256 is 743 milliseconds
