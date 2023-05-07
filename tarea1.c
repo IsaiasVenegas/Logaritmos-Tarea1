@@ -1,5 +1,5 @@
 #include "permutation.c"
-#include "mergeSort.c"
+#include "mergeSortArity.c"
 #include "createPi.c"
 
 typedef struct {
@@ -23,7 +23,7 @@ int main() {
         
 
         for (int i_test = 1; i_test <= 10; i_test++) {
-            pi = createNIntegers(n); // TODO
+            pi = createNIntegers(n);
 
             // First algorithm
             begin = clock();
@@ -34,7 +34,7 @@ int main() {
             free(pi_inversa);
             // Second algorithm
             begin = clock();
-            pi_inversa = inversa(pi, n);
+            pi_inversa = inversa(pi, n, 8);
             end = clock();
             times[i_test-1].merge_sort = ((double)(end - begin) / CLOCKS_PER_SEC) * 1000.0;
             printf("(%d) The elapsed time for 2^%d permutations - merge sort is %d milliseconds\n", i_test, 20+i, (int)times[i_test-1].merge_sort);
