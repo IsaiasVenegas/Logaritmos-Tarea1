@@ -1,0 +1,44 @@
+The avg for 2^20 permutations - permutations is 2 milliseconds
+The sd for 2^20 permutations - permutations is 0 milliseconds
+The avg for 2^20 permutations - merge sort is 181 milliseconds
+The sd for 2^20 permutations - merge sort is 4 milliseconds
+
+The avg for 2^21 permutations - permutations is 5 milliseconds
+The sd for 2^21 permutations - permutations is 0 milliseconds
+The avg for 2^21 permutations - merge sort is 359 milliseconds
+The sd for 2^21 permutations - merge sort is 4 milliseconds
+
+The avg for 2^22 permutations - permutations is 12 milliseconds
+The sd for 2^22 permutations - permutations is 2 milliseconds
+The avg for 2^22 permutations - merge sort is 753 milliseconds
+The sd for 2^22 permutations - merge sort is 24 milliseconds
+
+The avg for 2^23 permutations - permutations is 24 milliseconds
+The sd for 2^23 permutations - permutations is 1 milliseconds
+The avg for 2^23 permutations - merge sort is 1499 milliseconds
+The sd for 2^23 permutations - merge sort is 21 milliseconds
+
+The avg for 2^24 permutations - permutations is 47 milliseconds
+The sd for 2^24 permutations - permutations is 1 milliseconds
+The avg for 2^24 permutations - merge sort is 3043 milliseconds
+The sd for 2^24 permutations - merge sort is 40 milliseconds
+
+The avg for 2^25 permutations - permutations is 95 milliseconds
+The sd for 2^25 permutations - permutations is 4 milliseconds
+The avg for 2^25 permutations - merge sort is 6069 milliseconds
+The sd for 2^25 permutations - merge sort is 21 milliseconds
+
+The avg for 2^26 permutations - permutations is 188 milliseconds
+The sd for 2^26 permutations - permutations is 2 milliseconds
+The avg for 2^26 permutations - merge sort is 12640 milliseconds
+The sd for 2^26 permutations - merge sort is 100 milliseconds
+
+The avg for 2^27 permutations - permutations is 375 milliseconds
+The sd for 2^27 permutations - permutations is 7 milliseconds
+The avg for 2^27 permutations - merge sort is 25157 milliseconds
+The sd for 2^27 permutations - merge sort is 293 milliseconds
+
+The avg for 2^28 permutations - permutations is 740 milliseconds
+The sd for 2^28 permutations - permutations is 5 milliseconds
+The avg for 2^28 permutations - merge sort is 51115 milliseconds
+The sd for 2^28 permutations - merge sort is 196 milliseconds
