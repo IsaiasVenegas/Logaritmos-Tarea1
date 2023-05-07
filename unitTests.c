@@ -1,6 +1,6 @@
 #include "createPi.c"
 #include "permutation.c"
-#include "mergeSort.c"
+#include "mergeSortArity.c"
 
 int checkPi(int *arr1, int *arr2, int n)
 {
@@ -98,9 +98,22 @@ int main()
         int *pi_permutation;
         pi_permutation = permutation(pi, i);
         int *pi_merge_sort;
-        pi_merge_sort = inversa(pi, i);
+        pi_merge_sort = inversa(pi, i, 4);
         if (!checkPi(pi_merge_sort, pi_permutation, i))
         {
+            printf("pi   -> ");
+            for(int j=0; j<i; j++){
+                printf("%d ", pi[j]);
+            }
+            printf("\npi_m -> ");
+            for(int j=0; j<i; j++){
+                printf("%d ", pi_merge_sort[j]);
+            }
+            printf("\npi_p -> ");
+            for(int j=0; j<i; j++){
+                printf("%d ", pi_permutation[j]);
+            }
+            printf("\n");
             printf("Error, pi_merge_sort es distinto a pi_permutation para el caso %d \n", i);
             exit(1);
         }
@@ -121,7 +134,7 @@ int main()
         int *pi_permutation;
         pi_permutation = permutation(pi, n);
         int *pi_merge_sort;
-        pi_merge_sort = inversa(pi, n);
+        pi_merge_sort = inversa(pi, n, 4);
         if (!checkPi(pi_merge_sort, pi_permutation, n))
         {
             printf("Error, pi_merge_sort es distinto a pi_permutation para el caso n = 2^%d \n", 20+i);
